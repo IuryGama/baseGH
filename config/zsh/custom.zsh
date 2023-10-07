@@ -1,8 +1,9 @@
 #!/usr/bin/zsh
+#
 # Author: Wellington Moraes <wellpunk@gmail.com> [https://github.com/mswell/dotfiles/blob/master/config/zsh/custom.zsh]
 # 
 
-[ -f $HOME/.config/zsh/functions.zsh ] && source $HOME/.config/zsh/functions.zsh
+[ -f $HOME/.config/zsh/functions.zsh ] && source $HOME/.config/zsh/functions.zsh && source $HOME/.config/zsh/basics.zsh
 
 wellRecon() {
   wellSubRecon

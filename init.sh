@@ -1,10 +1,4 @@
 #!/bin/bash
-# 
-# Starter script to configure pentesting machines and bug bounty
-# This project was inspired by Wellington Moraes <wellpunk@gmail.com> [https://github.com/mswell/dotfiles] repository.
-# Inspired not only the project, but also to study more and do more bounty.
-# Modified by Iury Gama <iurycn.gama@gmail.com>
-# 
 
 export EDITOR='vim'
 export DOTFILES=$PWD
@@ -36,8 +30,15 @@ source setup/tools_install.sh
 # source setup/pyenv_install.sh
 # source setup/colors_fonts.sh
 
-# Need update -> Customization
-source ./setup/terminal.sh
+source ~/.bash_profile
 
+# Need update -> Customization
+source setup/terminal.sh
+
+source config/zsh/custom.zsh
+source config/zsh/functions.zsh
+source config/zsh/basics.zsh
+
+source ~/.bash_profile
 
 # Execute config files

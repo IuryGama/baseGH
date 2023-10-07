@@ -16,10 +16,11 @@ workspace() {
     echo $name | anew domains
 }
 
+# Enumeracao de subdominios baseado no dominio informado no arquivo "domains"
 subdomainenum() {
   echo "[+] Recon subdomains..."
   Domain=$(cat domains)
-  subfinder -up
+  # subfinder -up
   subfinder -nW -t 100 -all -o subfinder.subdomains -dL domains
   cat subfinder.subdomains | anew all.subdomains
   rm -f subfinder.subdomains

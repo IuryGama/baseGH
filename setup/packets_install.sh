@@ -29,8 +29,10 @@ sudo apt install -y build-essential \
                     curl     \
 		            xclip     \
                     rename     \
-                    findutils   \
-                    terminator   \
+					net-tools	\
+                    findutils    \
+                    terminator    \
+					iputils-ping   \
                     chromium-browser
 highlight "Done! Essencial packets installed.";
 echo -e "${reset} \n";
