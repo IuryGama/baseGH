@@ -33,12 +33,11 @@ source setup/tools_install.sh
 source ~/.bash_profile
 
 # Need update -> Customization
-source setup/terminal.sh
+#source setup/terminal.sh
+#source config/zsh/custom.zsh
+#source config/zsh/functions.zsh
+#source config/zsh/basics.zsh
 
-source config/zsh/custom.zsh
-source config/zsh/functions.zsh
-source config/zsh/basics.zsh
-
-source ~/.bash_profile
+#source ~/.bash_profile
 
 # Execute config files
