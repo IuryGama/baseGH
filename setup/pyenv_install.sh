@@ -1,16 +1,14 @@
-#!/bin/bash
-
 # The definitive guide to setup my Python workspace with ubuntu and ZSH
 # Author: Henrique Bastos <henrique@bastos.net>
 # Modified by Wellington Moraes <wellpunk@gmail.com>
 
-PY3=3.11.3
+PY3=3.11.5
 PY2=2.7.18
 PY3TOOLS="poetry youtube-dl pytest black flake8 pylint requests colorama virtualenvwrapper"
 PY2TOOLS="rename"
 
 VENVS=~/.ve
-PROJS=~/projects
+PROJS=~/Projects
 
 # Install Pyenv
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
@@ -36,7 +34,7 @@ cat <<"EOT" >> $HOME/.zshrc
 
 # Virtualenv-wrapper directories
 export WORKON_HOME=~/.ve
-export PROJECT_HOME=~/projects
+export PROJECT_HOME=~/Projects
 EOT
 
 cat <<"EOT" >> $HOME/.zshrc

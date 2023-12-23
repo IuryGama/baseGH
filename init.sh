@@ -23,6 +23,7 @@ sleep 2
 # Execute setup files
 
 source setup/packets_install.sh
+source setup/devel.sh
 source setup/golang_install.sh
 source setup/tools_install.sh
 
