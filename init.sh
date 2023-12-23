@@ -29,16 +29,17 @@ source setup/tools_install.sh
 
 # TODO: analizar 
 # source setup/pyenv_install.sh
-# source setup/colors_fonts.sh
+source setup/colors_fonts.sh
 
 source ~/.bash_profile
 
 # Need update -> Customization
-#source setup/terminal.sh
+source setup/terminal.sh
+
 #source config/zsh/custom.zsh
 #source config/zsh/functions.zsh
 #source config/zsh/basics.zsh
 
-#source ~/.bash_profile
+source ~/.bash_profile
 
 # Execute config files
