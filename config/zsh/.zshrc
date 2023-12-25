@@ -25,7 +25,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-source $HOME/Tools/gf/gf-completion.zsh
+source $HOME/tools/gf/gf-completion.zsh
 bindkey -s ^f "tmux-sessionizer\n"
 
 export FZF_DEFAULT_OPTS=" \
